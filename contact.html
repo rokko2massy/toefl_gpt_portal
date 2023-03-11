@@ -56,6 +56,16 @@
                   </div>                
                 </div>
                 <div class="mb-3">
+                <label class="form-label" for="id_category">Email</label>
+                <select class="form-select" id="id_category" name="category">
+                  <option selected>Select Category</option>
+                  <option value="Bug">Bug report</option>
+                  <option value="Improve">Suggestion for improvement</option>
+                  <option value="usage">How to use</option>
+                  <option value="other">Other</option>
+                </select>
+                </div>
+                <div class="mb-3">
                 <label class="form-label" for="id_message">Contents</label>
                   <textarea name="message" class="form-control" id="id_message" required rows="5"></textarea>
                 </div>
