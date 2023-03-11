@@ -1,0 +1,40 @@
+
+body{
+    font-size: 0.8rem;
+}
+
+.container{
+    padding: 10px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom:30px;
+}
+
+h2{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-top:20px;
+}        
+
+table{
+    width:100%;
+   border-collapse: collapse;
+   border:1px solid #333;
+}
+
+tbody{
+   border-collapse: collapse;
+   border:1px solid #333;
+}
+
+thead{
+   border-collapse: collapse;
+   border:1px solid #333;
+}
+
+td, th{
+   border-collapse: collapse;
+   border:1px solid #333;
+}
